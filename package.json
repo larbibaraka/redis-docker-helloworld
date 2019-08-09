@@ -1,0 +1,29 @@
+{
+  "name": "redis-docker-helloworld",
+  "version": "1.0.0",
+  "description": "a project that show how to create a multi-container environment",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larbibaraka/redis-docker-helloworld.git"
+  },
+  "keywords": [
+    "redis",
+    "express"
+  ],
+  "author": "Baraka Larbi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/larbibaraka/redis-docker-helloworld/issues"
+  },
+  "homepage": "https://github.com/larbibaraka/redis-docker-helloworld#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1",
+    "redis": "2.8.0"
+  }
+}
